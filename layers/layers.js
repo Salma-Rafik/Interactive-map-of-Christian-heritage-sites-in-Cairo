@@ -91,7 +91,7 @@ lyr___4.set('fieldImages', {'OBJECTID': 'TextEdit', 'id': 'TextEdit', 'Latitude'
 lyr___0.set('fieldLabels', {'OBJECTID': 'no label', 'SHAPE_Leng': 'no label', 'SHAPE_Area': 'no label', });
 lyr__1.set('fieldLabels', {'OBJECTID': 'no label', 'اسم_ا': 'inline label - always visible', 'المنط': 'no label', 'SHAPE_Leng': 'no label', 'SHAPE_Area': 'no label', 'اسم__1': 'no label', });
 lyr__2.set('fieldLabels', {'OBJECTID_1': 'no label', 'OBJECTID': 'no label', 'TYPE': 'no label', 'CODE': 'no label', 'A_Name': 'no label', 'E_Name': 'no label', 'Shape_Leng': 'no label', 'Shape_Le_1': 'no label', });
-lyr___3.set('fieldLabels', {'OBJECTID_1': 'no label', 'OBJECTID': 'no label', 'Arabic_Nam': 'no label', 'E_Name': 'no label', 'Shape_Leng': 'no label', 'Shape_Le_1': 'no label', 'Shape_Area': 'no label', });
+lyr___3.set('fieldLabels', {'OBJECTID_1': 'no label', 'OBJECTID': 'no label', 'Arabic_Nam': 'no label', 'E_Name': 'no label', 'Shape_Leng': 'header label - visible with data', 'Shape_Le_1': 'no label', 'Shape_Area': 'no label', });
 lyr___4.set('fieldLabels', {'OBJECTID': 'no label', 'id': 'no label', 'Latitude': 'no label', 'Longitude': 'no label', 'name': 'inline label - always visible', 'descriptio': 'no label', 'Images': 'no label', });
 lyr___4.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
